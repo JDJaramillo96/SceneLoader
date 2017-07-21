@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="class_scene_loader" kind="class"><name>SceneLoader</name>
+    <member refid="class_scene_loader_1afd3b50ba580b18101785cc6dec9db25c" kind="variable"><name>sceneToLoad</name></member>
+    <member refid="class_scene_loader_1ac6c2b6d6ea55f54697e9e4f9443a2147" kind="property"><name>actualScene</name></member>
+    <member refid="class_scene_loader_1a7c76f1608a7c460ae081d4f6f711f8bf" kind="property"><name>loadProgress</name></member>
+    <member refid="class_scene_loader_1a139bcbca26e3b1c9b801f464b0329ea7" kind="property"><name>isDone</name></member>
+    <member refid="class_scene_loader_1a5a2df09633fe9f6d3aa193a7e90680d8" kind="property"><name>Instance</name></member>
+    <member refid="class_scene_loader_1aaa186c2a18f30ead82cafba467372d14" kind="function"><name>Awake</name></member>
+    <member refid="class_scene_loader_1aaf7c66c5998e289756c09cca08239e9f" kind="function"><name>Start</name></member>
+    <member refid="class_scene_loader_1a5c3cdcda6f19547d5120ea323062002b" kind="function"><name>LoadFirstOne</name></member>
+    <member refid="class_scene_loader_1a3bc656534b03498c6e0e353f01adb335" kind="function"><name>LoadLastOne</name></member>
+    <member refid="class_scene_loader_1acfe1190a29c2aa71152a191d8101bc93" kind="function"><name>SceneChecker</name></member>
+    <member refid="class_scene_loader_1af88b4d4e256da059fbe01ccc8ff26ff2" kind="function"><name>CaseNoScenes</name></member>
+    <member refid="class_scene_loader_1a4b92fa3846e4532e7e2e4fbb662e4ec6" kind="function"><name>CaseOneScene</name></member>
+    <member refid="class_scene_loader_1a06feefb1799a253494211fddf76e1cd4" kind="function"><name>LoadScene</name></member>
+    <member refid="class_scene_loader_1a90321396d4c51480a4d096272a35cbdd" kind="function"><name>LoadScene</name></member>
+    <member refid="class_scene_loader_1ac23c983484df70bb62bf26bfcb763b0f" kind="function"><name>LoadNextScene</name></member>
+    <member refid="class_scene_loader_1aab301dd9e26e2d3f8e9bef4c75f0eaf3" kind="function"><name>LoadPreviousScene</name></member>
+    <member refid="class_scene_loader_1aa6e405644d29ef37197bf39cde725887" kind="function"><name>LoadFirstScene</name></member>
+    <member refid="class_scene_loader_1aea6b43431f91df86310810cc125d8caf" kind="function"><name>LoadLastScene</name></member>
+    <member refid="class_scene_loader_1a5a3838ecb725a61ba5c65216ed76ebf4" kind="function"><name>ReloadScene</name></member>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_scene_management" kind="namespace"><name>UnityEngine::SceneManagement</name>
+  </compound>
+  <compound refid="_scene_loader_8cs" kind="file"><name>SceneLoader.cs</name>
+  </compound>
+</doxygenindex>

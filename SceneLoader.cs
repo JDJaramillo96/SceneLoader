@@ -31,7 +31,7 @@ public class SceneLoader : MonoBehaviour {
     /// Property that allows you know if the actual scene loading has completed.
     /// </summary>
     [HideInInspector]
-    public bool loadDone
+    public bool isDone
     {
         get; private set;
     }
@@ -217,7 +217,7 @@ public class SceneLoader : MonoBehaviour {
     {
         AsyncOperation loadScene = SceneManager.LoadSceneAsync(sceneToLoad);
 
-        loadDone = false;
+        isDone = false;
 
         while (!loadScene.isDone)
         {
@@ -226,7 +226,7 @@ public class SceneLoader : MonoBehaviour {
             yield return null;
         }
 
-        loadDone = true;
+        isDone = true;
 
         actualScene = SceneManager.GetActiveScene().buildIndex;
     }
