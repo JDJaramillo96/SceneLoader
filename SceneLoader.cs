@@ -39,7 +39,7 @@ public class SceneLoader : MonoBehaviour {
     /// <summary>
     /// Static property that performs like singleton.
     /// </summary>
-    public static SceneLoader Instance
+    public static SceneLoader Singleton
     {
         get; private set;
     }
@@ -53,7 +53,7 @@ public class SceneLoader : MonoBehaviour {
         if (Instance != null)
             DestroyImmediate(gameObject);
         else
-            Instance = this;
+            Singleton = this;
     }
 
     private void Start()
