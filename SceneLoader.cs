@@ -50,7 +50,7 @@ public class SceneLoader : MonoBehaviour {
 
     private void Awake()
     {
-        if (Instance != null)
+        if (Singleton != null)
             DestroyImmediate(gameObject);
         else
             Singleton = this;
